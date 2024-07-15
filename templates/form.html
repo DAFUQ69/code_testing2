@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <title>{{ action }} Product</title>
+</head>
+<body>
+    <h1>{{ action }} Product</h1>
+    <form method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="{{ product.name }}">
+        <br>
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description" value="{{ product.description }}">
+        <br>
+        <label for="price">Price:</label>
+        <input type="text" id="price" name="price" value="{{ product.price }}">
+        <br>
+        <label for="stock">Stock:</label>
+        <input type="text" id="stock" name="stock" value="{{ product.stock }}">
+        <br>
+        <button type="submit">{{ action }} Product</button>
+    </form>
+    <a href="/">Back to Product List</a>
+</body>
+</html>
