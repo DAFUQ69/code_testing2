@@ -8,7 +8,6 @@ This is a simple CRUD application to manage product data using Flask and MySQL.
 
    ```sh
    git clone https://github.com/DAFUQ69/geonet
-   cd product_app
 2. Create virtual environment and activate it:
     python -m venv venv
     venv\Scripts\activate
